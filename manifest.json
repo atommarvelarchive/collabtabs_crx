@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "CollaBrowser",
+    "version": "0.0.0.1",
+    "permissions": [
+        "tabs"
+    ],
+    
+    "browser_action": {},
+    "background": {
+        "scripts": ["socket.io.js", "background.js"],
+        "persistent": true
+    }
+}
